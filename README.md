@@ -1,3 +1,7 @@
+# 🍊[rangizer][orangizer] 
+# _A simple color randomizer_
+
+Orangizer is a simple web application that genearates random colors with RGB code
 [Jump to web view][orangizer]
 
 ## Features
