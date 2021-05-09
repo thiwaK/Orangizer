@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		:root {
+		  --svg: #6495ed;
+		  --background: #ff0000;
+		  --stroke: white;
+		}
+
+		body{margin: 0}
+		
+
+		.navbar {
+		    display: flex;
+		    position: sticky;
+		    align-items: center;
+		    justify-content: center;
+		    top: 0px;
+		    cursor: pointer;
+		    color: red;
+		    background-color: #091d2c;
+			background-image: linear-gradient(315deg, #0b0b0b 0%, #091d2c 74%);
+		}
+		.rightNav {
+		    width: 50%;
+		    text-align: right;
+		}
+		.leftNav {
+		    width: 50%;
+		    text-align: left;
+		}
+		/*.navTitle{
+			padding-left: 10%;
+		    color: white;
+		    font-size: 15px;
+		}*/
+		.mainBackground {
+			background-color: var(--background);
+  			/*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
+
+  			/*width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(to top left, #e394a3 50%, #8dd6a6 50%);*/
+		}
+
+
+		.svg-container svg path{
+		  fill: var(--svg);
+		  stroke: var(--stroke);
+		  stroke-width: 10pc;
+		  filter: drop-shadow(-90px -40px 90px rgba(0, 0, 0, .3))
+		}
+		.svg-container {
+			width: 33.33333333%;
+			margin-bottom: 20px;
+		    position: center;
+		    min-height: 1px;
+		    padding-left: 10px;
+		    padding-right: 10px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			line-height: 30px;
+		}
+		.inner-svg {
+		    position: relative;
+		    z-index: 1;
+		    display: block;
+		    width: auto;
+		    height: 200px;
+		    margin-right: auto;
+		    margin-bottom: -83px;
+		    margin-left: auto;
+		}
+		.mySVG {
+			padding-top: 5%;
+			max-height: 300px;
+			margin: 0 auto;
+			height: auto !important;
+			width: auto !important;
+			max-width: 300px;
+			display: block;
+		}
+
+		.button-container{
+			margin-bottom: 20px;
+		    position: center;
+		    min-height: 1px;
+		    padding-left: 10px;
+		    padding-right: 10px;
+			position: absolute;
+			left: 50%;
+			top: 80%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			line-height: 30px;
+		}
+
+
+		#hexColor{
+			size:18px;
+			padding: 20px 0px;
+			text-align: center;
+		}
+		.div-block-21 {
+		    position: relative;
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    padding: 100px 15px 15px;
+		    -webkit-box-orient: vertical;
+		    -webkit-box-direction: normal;
+		    -webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		    flex-direction: column;
+		    -webkit-box-pack: center;
+		    -webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    -webkit-box-align: stretch;
+		    -webkit-align-items: stretch;
+		    -ms-flex-align: stretch;
+		    align-items: stretch;
+		    border-radius: 10px;
+		    background-color: #fff;
+		    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%);
+		    -webkit-transition: .3s;
+		    transition: .3s;
+		}
+		button {
+		    margin: 0 10px;
+		    padding: 10px 40px;
+		    border: 1px solid rgb(199, 198, 198);
+		    border-radius: 5px;
+		    cursor: pointer;
+		    outline: none;
+		    font-size: 14px;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    color: rgb(0, 0, 0);
+		    background-color: #fff;
+		    -webkit-box-shadow: 10px 19px 83px -40px rgb(0 0 0);
+		    -moz-box-shadow: 10px 19px 83px -40px rgba(0, 0, 0, 1);
+		    box-shadow: 10px 19px 83px -40px rgb(0 0 0);
+		}
+
+
+	</style>
+</head>
+<body class="mainBackground">
+
+	<nav class="navbar background">
+		<div class="leftNav">
+            <p class="navTitle" style="padding-left: 10%;color: white;font-size: 15px;">
+            	<img src="img.svg" width="29px" align="center"/>rangizer | Random Color Generator</p>
+        </div>
+        <div class="rightNav">
+        </div>
+    </nav>
+
+    <div class="svg-container">
+    	<svg class="inner-svg"  stroke="#FF0000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+			<g><g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
+				<path id="myPath" d="M4645.7,4999.5c-26.7-4.1-78.2-41.1-117.2-80.2c-90.5-90.5-94.6-181-20.6-401c129.6-378.4,218-851.4,246.8-1318.3l14.4-242.7h-273.5c-664.3-2.1-1203.1-121.3-1756.3-390.8C2019.5,2217,1476.5,1682.3,1137.2,993.3C874,462.7,754.7-59.6,754.7-672.5c0-641.7,131.6-1223.7,399-1768.7c300.3-610.8,777.4-1114.7,1382-1456.1c205.7-117.2,686.9-318.8,1024.2-427.8c191.3-63.8,645.8-162.5,740.4-162.5c41.1,0,59.6-16.4,84.3-76.1c45.2-106.9,102.8-164.5,207.7-203.6c168.6-63.8,359.9,10.3,433.9,166.6c30.8,63.8,41.1,69.9,158.3,82.3c705.4,80.2,1536.3,283.8,1964,485.4c726,339.3,1345,1055,1637,1892.1c156.3,444.2,215.9,812.4,215.9,1328.5c0,1133.2-341.4,2095.6-968.6,2718.8C7430.3,2509,6472,2873.1,5349.1,2930.6L5092,2943l14.4,238.6c6.2,131.6,16.5,242.7,20.6,246.8c4.1,4.1,80.2-24.7,166.6-63.8c349.6-160.4,664.3-222.1,1116.7-222.1c567.6,0,997.4,69.9,1686.4,277.6c542.9,162.5,660.1,189.2,927.5,218c117.2,10.3,215.9,24.7,220.1,28.8c14.4,14.4-119.3,252.9-211.8,378.4c-353.7,479.2-952.2,839.1-1561,937.8c-448.3,74-1018-8.2-1443.7-203.6c-349.6-162.5-647.8-438.1-837-771.2l-65.8-115.2l-24.7,244.7c-26.7,257.1-109,633.4-158.3,730.1C4890.5,4966.6,4763,5022.2,4645.7,4999.5z"/>
+			</g></g>
+		</svg>
+
+
+        <div class="div-block-21">
+        	<span id="hexColor" style="font-size: 20px;font-style: bold">#F8F2DC</span>
+        </div>
+	</div>
+
+	<div class="button-container">
+
+		<button onclick="randomize()">Change</button>
+	</div>
+
+</body>
+   <script type="text/javascript">
+   		var _color_ = getRandomColor();
+		randomize();
+
+		function getRandomColor() {
+		  var letters = '0123456789ABCDEF';
+		  var color = '#';
+		  for (var i = 0; i < 6; i++) {
+		    color += letters[Math.floor(Math.random() * 16)];
+		  }
+		  return color;
+		}
+		function randomize(){
+			_color_ = getRandomColor();
+			document.documentElement.style.setProperty('--svg', _color_);
+			document.documentElement.style.setProperty('--background', _color_);
+			document.getElementById("hexColor").textContent= _color_;
+			document.getElementById("hexColor").style.color = _color_;
+		}
+   </script>
+</html>
