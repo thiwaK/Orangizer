@@ -11,5 +11,5 @@ Orangizer is a simple web application that genearates random colors with RGB cod
 - Intresting UI
 
 
-[orangizer]: <https://github.com/joemccann/dillinger>
+[orangizer]: <https://thiwanka-kaushal.github.io/Orangizer/>
 [orange]: <https://raw.githubusercontent.com/thiwanka-kaushal/Orangizer/main/docs/img.svg>
